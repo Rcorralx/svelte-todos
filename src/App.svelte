@@ -1,6 +1,6 @@
 <script>
 	import Gun from "gun/gun"
-	var gun = Gun({peers:['https://relay-server-production.up.railway.app/gun']}).get('todos');
+	var gun = Gun({peers:['https://vercel.com/rafael-corrals-projects/vercel-relay/gun']}).get('todos');
 	
 	// Create a local store to cache data from GUN
 	let store = {}
